@@ -24,6 +24,7 @@ Current services:
 ## Lab Objectives
 
 - Deploy and administer Active Directory
+- Use appropriate ISOs (Virtual Disk) for OS installation 
 - Configure DNS and TCP/IP networking
 - Manage users, groups, and permissions
 - Implement Group Policy
