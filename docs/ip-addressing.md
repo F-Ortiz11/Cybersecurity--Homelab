@@ -10,4 +10,5 @@
 
 - Subnet: `192.168.154.0/24`
 - DHCP Pool: `192.168.154.128 - 192.168.154.254`
+- DHCP pool is the random assigned IP addresses given out by DHCP to devices joining the network 
 - Static addresses are assigned outside the DHCP pool.
