@@ -59,4 +59,5 @@ The issue was resolved by restarting the VMware NAT and DHCP services (using 'se
 - When logging in the `.\` tells windows to authenticate via the local machine not the domain (QE)
 - `QE-WIN11-01\user` = local machine\user= Local Account
 - `QuantumEdge\user` = Domain\user= Domain Account
+
   The section before the \ is where we authenticate from 
