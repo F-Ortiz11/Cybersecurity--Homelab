@@ -56,7 +56,7 @@ The issue was resolved by restarting the VMware NAT and DHCP services (using 'se
 - Active Directory relies heavily on DNS.
 - Domain clients should use the Domain Controller as their DNS server.
 - VMware NAT can provide internet access while keeping the lab on a private virtual network.
-- When logging in the '.\' tells windows to authenticate via the local machine not the domain (QE)
-- 'QE-WIN11-01\user' = local machine\user= Local Account
-- 'QuantumEdge\user' = Domain\user= Domain Account
+- When logging in the `.\` tells windows to authenticate via the local machine not the domain (QE)
+- `QE-WIN11-01\user` = local machine\user= Local Account
+- `QuantumEdge\user` = Domain\user= Domain Account
   The section before the \ is where we authenticate from 
