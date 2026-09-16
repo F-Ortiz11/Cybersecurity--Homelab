@@ -44,9 +44,11 @@ The following tests were performed:
 
 ## Troubleshooting
 
-During initial network configuration, the VMware NAT gateway became unreachable.
+During initial network configuration, the VMware NAT gateway became unreachable. Attempted to switch DHCP
 
-The issue was resolved by restarting the VMware NAT and DHCP services on the host machine.
+back to auto but this did not resolve the issue.
+
+The issue was resolved by restarting the VMware NAT and DHCP services (using 'services.msc') on the host machine.
 
 ## Lessons Learned
 
@@ -54,3 +56,7 @@ The issue was resolved by restarting the VMware NAT and DHCP services on the hos
 - Active Directory relies heavily on DNS.
 - Domain clients should use the Domain Controller as their DNS server.
 - VMware NAT can provide internet access while keeping the lab on a private virtual network.
+- When logging in the ".\" tells windows to authenticate via the local machine not the domain (QE)
+- QE-WIN11-01\user = local machine\user= Local Account
+- QuantumEdge\user = Domain\user= Domain Account
+  The section before the \ is where we authenticate from 
